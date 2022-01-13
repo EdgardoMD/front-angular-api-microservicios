@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AlumnosComponent } from './components/alumnos/alumnos.component';
 import { CursosComponent } from './components/cursos/cursos.component';
 import { ExamenesComponent } from './components/examenes/examenes.component';
+import { FooterComponent } from './layout/footer/footer.component';
 import { LayoutModule } from './layout/layout.module';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 
@@ -15,7 +16,8 @@ import { NavbarComponent } from './layout/navbar/navbar.component';
     AlumnosComponent,
     CursosComponent,
     ExamenesComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
